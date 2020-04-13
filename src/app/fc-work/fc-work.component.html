@@ -1,0 +1,25 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="box-content">
+        <h1> PERSONAL WORK </h1>
+
+        <div class="portfolio albumContainer">
+          <!-- to be repeated -->
+          <div *ngFor="let project of MyProjects" class="col-md-4 item">
+            <div class="grid">
+              <figure class="effect-oscar">
+                <img src="{{ project.visual }}" alt="" />
+                <figcaption>
+                  <p>{{ project.description }}</p>
+                  <a href="{{ project.link }}" class="smooth-redirect"></a>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+          <!-- end of to be repeated -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

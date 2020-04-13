@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "visual": "assets/images/project1.png",
+    "description": "Presentation on how to implement easily a Gitlab CI/CD for building and deploying a simple Python Flask application",
+    "link": "https://github.com/francoiscolombo/azure-ansible-gitlab"
+  },
+  {
+    "id": 2,
+    "visual": "assets/images/project2.png",
+    "description": "This is a complete application with 3 components: a frontend in Angular, a backend in Flask and a scheduler in Celery",
+    "link": "https://github.com/francoiscolombo/webnews"
+  },
+  {
+    "id": 3,
+    "visual": "assets/images/project3.png",
+    "description": "This is a command line tool, written in Golang, to download my favorite mangas. Can serve as a CLI template project.",
+    "link": "https://github.com/francoiscolombo/gomangareaderdl"
+  },
+  {
+    "id": 4,
+    "visual": "assets/images/project4.png",
+    "description": "This is sample Java project, to provide a REST API. Can be used for template for more complex projects. Uses Spark and Nitrite.",
+    "link": "https://github.com/francoiscolombo/code-java"
+  }
+]

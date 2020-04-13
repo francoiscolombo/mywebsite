@@ -1,0 +1,164 @@
+[
+  {
+    "id": 11,
+    "title": "DevOps engineer for VITOL, Geneva, Switzerland",
+    "period": "Oct., 2019 to Feb., 2020",
+    "mission": "maintenance and improvement of the CI/CD platform, studies on Windows containers deployment",
+    "achievements": [
+      "Improve, design and manage full CI/CD platform for .NET applications",
+      "Platform components and tools installation / maintenance / upgrade",
+      "Design and implementation of a full pipelines for .net core & framework, react (nodejs/npm) and python applications (based on custom template library).",
+      "For the CD part: deployment of the .net applications as windows containers, and the other applications as docker container.",
+      "Support, administration, maintenance, R&D on potential tools to be used"
+    ],
+    "environments": ["Windows server 2019", "Linux debian"],
+    "technologies": ["Jenkins", "Nexus", "Bitbucket", "JIRA", "metricsbeat"]
+  },
+  {
+    "id": 10,
+    "title": "Consultant for Pictet, Geneva, Switzerland,",
+    "period": "May 2018 to Sept. 2019",
+    "mission": "replacement of the current alerting system by a modern one, improvements on the monitoring platform, management of some tools like Grafana, working with the other infrastructure teams, as a member of the Platform management services team, Kubernetes administration and advise.",
+    "achievements": [
+      "Implements a new Alerting console, with a backend in Python Flask, an AngularJS frontend, both built as docker images and running as containers. Automated continuous deployment driven by puppet modules and bamboo",
+      "Installation and maintenance of the customized Grafana (with compilation from source code)",
+      "Implementation of a lot of new « checks » for the monitoring platform, by REST API queries (Ruby, Puppet, Perl)",
+      "Upgrade of the security policy under Kubernetes by namespaces isolation with Open Policy Agent rules",
+      "R&D then implementation of the « node exporter » for Prometheus under Kubernetes, in order to collect metrics for every nodes.",
+      "Study on the usage of logstash « beats » (filebeat, journalbeat) in order to collect logs for containers running under Kubernetes",
+      "Improvements of the vagrant and terraform Kubernetes infrastructure simulation solution",
+      "Referee for some complex technical issues for the production teams, advise on solution to use and implement, train network teams on Grafana, Kibana, elastic search and some in-house solutions regarding the management platform",
+      "Inventory scripts improvements for the management platform (bash and python)",
+      "Coding of a chatbot for Matermost, in Golang",
+      "Support, administration, maintenance, R&D on potential tools to be used in the future"
+    ],
+    "environments": ["Linux", "AIX", "Solaris", "Windows 2008 / 2012", "Kubernetes on premise"],
+    "technologies": ["Vagrant", "Puppet", "Ansible", "Terraform", "Bamboo", "Artifactory", "Nexus", "Bitbucket", "JIRA", "Ruby", "Golang", "Perl", "Python", "AngularJS", "Prometheus", "Grafana", "Kibana", "logstash", "RabbitMQ", "redis", "elastic search", "Helm"]
+  },
+  {
+    "id": 9,
+    "title": "DevOps system engineer for Nestle, Bussigny, Switzerland,",
+    "period": "2016 to April 2018",
+    "mission": "automation and improvements of the CI/CD toolchain, working as a bridge between the development’s teams and the infrastructure teams, as a member of the DevOps team.",
+    "achievements": [
+      "Full CI/CD toolchain for Magento2 project, based on Jenkins pipelines, including providing a full IDE to developpers, make for docker build, provide functional testing validation, automatic deployment on AKS (Azure Kubernetes) with storage support under glusterfs",
+      "Full CI/CD toolchain for Nestlé Waters (java based application, using hybris framework), then give the leadership to Morocco teams after I train them",
+      "Support on the global CI/CD toolchain for Nespresso",
+      "Implement Jenkins watcher tools for the CI/CD platform (based on scripts, influxdb and Grafana dashboards)",
+      "R&D on new tooling",
+      "documentation"
+    ],
+    "environments": ["Azure", "VM under OpenStack", "Kubernetes (AKS)", "Linux"],
+    "technologies": ["Vagrant", "Puppet", "Ansible", "Terraform", "Jenkins", "Artifactory", "Nexus", "Bitbucket", "SonarQube", "JIRA", "maven", "tomcat", "Ruby", "Gitlab", "Magento", "Redis"]
+  },
+  {
+    "id": 8,
+    "title": "WebSphere Expert at C.A. Private Banking Services, Lausanne, Switzerland,",
+    "period": "2015 to 2016, May",
+    "mission": "improvement of the infrastructure for the document's management global solution, working as a bridge between the developments teams and the infrastructure teams, as a member of the infrastructure team.",
+    "achievements": [
+      "WebSphere Application Server on AIX and Windows : improvements of the setups, stabilization, scripting (both AIX & Windows)",
+      "upgrade versions of the several products used (WebSphere Application Server, IBM Content Manager, IBM Content Integrator, IBM OnDemand)",
+      "redesign the WAS infrastructure for better extensions possibilities (standalone profiles clustering by persistance and loadbalancing with a F5 BigIP)",
+      "guidelines for the dev teams",
+      "implement watcher tools for the platform",
+      "documentation"
+    ],
+    "environments": ["IBM Content Manager and OnDemand under AIX and Windows 2008 R2, hosted by WAS 8.5"],
+    "technologies": ["jython", "bash", "java", "REST-WS", "jmeter", "websphere application server"]
+  },
+  {
+    "id": 7,
+    "title": "Middleware Architect at Groupe Mutuel Assurance, Martigny, Switzerland,",
+    "period": "2011 – 2014 (4 years)",
+    "mission": "improvement of the development infrastructure, main code business application code quality, redesign architecture, drive development teams and middleware to a better way to work, work closely with release management and process management teams",
+    "achievements": [
+      "Working with processes teams for delivery process and delivery quality improvements : devops platform based on bamboo, maven, sonar and some customized plugins & scripts",
+      "improvement of application's delivery (auto deployment, platform's setup and configuration scripting, maven specialized plugins development)",
+      "WebSphere Application Server : improvements, stabilization, scripting",
+      "Technical support for middleware and development teams",
+      "Evolution of the development toolbox",
+      "Introduce applicative routing by implementing Camel framework",
+      "Setting up and maintain the continuous integration platform (maven, bamboo, sonar, jython deployment scripts)",
+      "Sponsor for WebSphere MQ Series and how it could be used as a key platform for Events-driven Architecture",
+      "Introduce and promote the \"archimate\" design method to my fellow architect colleagues, try to adapt some of the TOGAF processes for internal usage",
+      "Participate with my fellow colleagues to improve processus and global IT stability"
+    ],
+    "environments": ["Linux", "Windows"],
+    "technologies": ["bamboo", "java", "sonarqube", "scripting"]
+  },
+  {
+    "id": 6,
+    "title": "Middleware architect at Credit du Nord, Lesquin",
+    "period": "2009 - 2010",
+    "mission": "Studies, design and drive technical projects all bounded to the J2EE infrastructure",
+    "achievements": [
+      "\"functionnal clustering\": being able to link functionnalities to technical components",
+      "Support and contact for performance testing",
+      "Optimize the J2EE infrastructure",
+      "Weblogic technical expert"
+    ],
+    "environments": ["IBM AIX", "Weblogic"],
+    "technologies": ["java"]
+  },
+  {
+    "id": 5,
+    "title": "Senior Architect at Logica, Lille, France,",
+    "period": "2007 – 2008",
+    "mission": "Performance and infrastructure architecture",
+    "achievements": [
+      "Design front office infrastructure architecture of the CAMIF website",
+      "Specialist in JEE performance improvements",
+      "Developement auditor for \"La Redoute\"",
+      "Give all the requirements needed for a new ITIL HelpDesk implementation at Nexity",
+      "And a lot of internal support for performance's improvement..."
+    ],
+    "environments": ["Linux", "Windows Server"],
+    "technologies": ["java"]
+  },
+  {
+    "id": 4,
+    "title": "Technical Architect at Quadra, Lille, France,",
+    "period": "2004 – 2006",
+    "mission": "",
+    "achievements": [],
+    "environments": [],
+    "technologies": []
+  },
+  {
+    "id": 3,
+    "title": "Consultant and Technical project manager Bruxelles, Belgium and Paris / Lille, France,",
+    "period": "2000 - 2003",
+    "mission": "",
+    "achievements": [],
+    "environments": [],
+    "technologies": []
+  },
+  {
+    "id": 2,
+    "title": "Front end developer at Cité numérique, Lille, France,",
+    "period": "1999",
+    "mission": "",
+    "achievements": [],
+    "environments": [],
+    "technologies": []
+  },
+  {
+    "id": 1,
+    "title": "Network consultant at Netinfo, North of France,",
+    "period": "1998",
+    "mission": "",
+    "achievements": [],
+    "environments": [],
+    "technologies": []
+  },
+  {
+    "id": 0,
+    "title": "IT manager at SCP Zwertvaegher, North of France,",
+    "period": "1993 – 1997",
+    "mission": "",
+    "achievements": [],
+    "environments": [],
+    "technologies": []
+  }
+]

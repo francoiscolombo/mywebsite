@@ -1,0 +1,75 @@
+<div class="container">
+
+  <div class="row">
+    <div class="col-md-12">
+      <div class="box-content">
+
+        <h1>Experiences</h1>
+
+        <div class="col-md-6">
+          <div class="box-text">
+            <h2>KEY SKILLS AND COMPETENCIES</h2>
+            <p>Highly organized and disciplined with a passion for Information Technology,</p>
+            <p>Specialist of infrastructure as Code, with a good knowledge of Kubernetes, Azure, terraform, vagrant, puppet, ansible,</p>
+            <p>Practical understanding of full software factories, Continuous integration and deployments, monitoring and alerting,</p>
+            <p>Good knowledge of Python, Java, Javascript and Golang.</p>
+            <p class="slogan">" Technology is best when it brings people together. "</p>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="skills-area triggerAnimation animated" data-animate="fadeInLeft">
+            <div class="box-text">
+              <h2>MY SKILLS</h2>
+              <div class="skills-box">
+                <div class="skills-progress">
+                  <p>Development<span>80%</span></p>
+                  <div class="meter nostrips">
+                    <p style="width: 80%"></p>
+                  </div>
+                  <p>Unix System Administration<span>75%</span></p>
+                  <div class="meter nostrips">
+                    <p style="width: 75%"></p>
+                  </div>
+                  <p>Infrastructure as code<span>80%</span></p>
+                  <div class="meter nostrips">
+                    <p style="width: 80%"></p>
+                  </div>
+                  <p>Cloud administration<span>70%</span></p>
+                  <div class="meter nostrips">
+                    <p style="width: 70%"></p>
+                  </div>
+                  <p>Automatiion & scripting<span>90%</span></p>
+                  <div class="meter nostrips">
+                    <p style="width: 90%"></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <div class="box-content experiences">
+        <!-- to be repeated -->
+        <div *ngFor="let exp of Experiences" class="col-md-12 list-experiences">
+          <h2><i class="fa fa-briefcase"></i>{{ exp.title }}<span class="data">{{ exp.period }}</span></h2>
+          <p *ngIf="exp.mission"><u>mission</u>: {{ exp.mission }}</p>
+          <div *ngIf="exp.achievements.length">
+            <u>main achievements</u>:
+            <ol class="s19">
+              <li *ngFor="let achievement of exp.achievements">{{ achievement }}</li>
+            </ol>
+          </div>
+          <p *ngIf="exp.environments.length"><u>Environments</u>: {{ exp.environments }}</p>
+          <p *ngIf="exp.technologies.length"><u>Technologies</u>: {{ exp.technologies }}</p>
+        </div>
+        <!-- end to be repeated -->
+      </div>
+    </div>
+  </div>
+</div>
