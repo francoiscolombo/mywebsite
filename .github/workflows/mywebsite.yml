@@ -1,0 +1,48 @@
+name: build-frontend
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [10.x]
+
+    steps:
+
+    - name: Checkout
+      uses: actions/checkout@master
+
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+
+    - name: Install dependencies
+      run: |
+        npm install
+
+    - name: Install ng cli
+      run: |
+        npm install -g @angular/cli@9.1.1
+
+    - name: Lint project
+      run: |
+        ng lint
+
+    - name: Build project
+      run: |
+        ng build --prod
+
+    - name: Build docker image
+      run: |
+        docker login fcprdckreg.azurecr.io -u ${{ secrets.REGISTRY_USERNAME }} -p ${{ secrets.REGISTRY_PASSWORD }}
+        docker build . -t fcprdckreg.azurecr.io/fcwebsite:latest
+        docker push fcprdckreg.azurecr.io/fcblog:latest
