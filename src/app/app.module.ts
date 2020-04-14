@@ -1,7 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
-import { OwlModule } from 'ngx-owl-carousel';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -29,7 +28,6 @@ import { FcExperienceService } from './fc-experiences/fc-experiences.service';
   ],
   imports: [
     BrowserModule,
-    OwlModule,
     HttpClientModule,
     AppRoutingModule
   ],
