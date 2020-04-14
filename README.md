@@ -1,4 +1,6 @@
-# Francoiscolombo
+![build-frontend](https://github.com/francoiscolombo/mywebsite/workflows/build-frontend/badge.svg)
+
+# Francoiscolombo's personal website
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.1.
 

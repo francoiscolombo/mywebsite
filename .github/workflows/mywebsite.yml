@@ -41,8 +41,13 @@ jobs:
       run: |
         ng build --prod
 
+    - name: cleanup
+      run: |
+        rm -fr dist
+        rm -fr node_modules
+
     - name: Build docker image
       run: |
         docker login fcprdckreg.azurecr.io -u ${{ secrets.REGISTRY_USERNAME }} -p ${{ secrets.REGISTRY_PASSWORD }}
         docker build . -t fcprdckreg.azurecr.io/fcwebsite:latest
-        docker push fcprdckreg.azurecr.io/fcblog:latest
+        docker push fcprdckreg.azurecr.io/fcwebsite:latest
