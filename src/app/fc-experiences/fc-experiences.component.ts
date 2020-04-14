@@ -5,7 +5,7 @@ import { takeUntil } from 'rxjs/operators';
 import { Subject } from 'rxjs';
 
 @Component({
-  selector: 'fc-experiences',
+  selector: 'app-experiences',
   templateUrl: './fc-experiences.component.html',
   styleUrls: ['./fc-experiences.component.css']
 })
