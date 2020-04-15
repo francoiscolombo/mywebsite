@@ -2,7 +2,7 @@
   {
     "id": 1,
     "visual": "assets/images/project1.png",
-    "description": "Presentation on how to implement easily a Gitlab CI/CD for building and deploying a simple Python Flask application",
+    "description": "Presentation on how to easily implement a Gitlab CI/CD for building and deploying a simple Python Flask application",
     "link": "https://github.com/francoiscolombo/azure-ansible-gitlab"
   },
   {
@@ -20,7 +20,7 @@
   {
     "id": 4,
     "visual": "assets/images/project4.png",
-    "description": "This is sample Java project, to provide a REST API. Can be used for template for more complex projects. Uses Spark and Nitrite.",
+    "description": "This is a sample Java project, to provide a REST API. This template can be used for complex projects. Uses Spark and Nitrite.",
     "link": "https://github.com/francoiscolombo/code-java"
   }
 ]

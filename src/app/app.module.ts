@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FcHeaderComponent } from './fc-header/fc-header.component';
 import { FcWhoamiComponent } from './fc-whoami/fc-whoami.component';
+import { FcResponsibilitiesComponent } from './fc-responsibilities/fc-responsibilities.component';
 import { FcWorkComponent } from './fc-work/fc-work.component';
 import { FcExperiencesComponent } from './fc-experiences/fc-experiences.component';
 import { FcBlogArticlesComponent } from './fc-blog-articles/fc-blog-articles.component';
@@ -24,7 +25,8 @@ import { FcExperienceService } from './fc-experiences/fc-experiences.service';
     FcExperiencesComponent,
     FcBlogArticlesComponent,
     FcContactComponent,
-    FcFooterComponent
+    FcFooterComponent,
+    FcResponsibilitiesComponent
   ],
   imports: [
     BrowserModule,
