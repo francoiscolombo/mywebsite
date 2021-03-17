@@ -1205,7 +1205,6 @@ footer .footer-social a:hover{
 
 .s19{list-style: none;}
 .s19 li:before{
-  content: '\f0a9';
+  content: 'o';
   margin-right: 15px;
-  font-family: FontAwesome;
 }

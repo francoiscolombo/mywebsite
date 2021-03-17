@@ -1,5 +1,18 @@
 [
   {
+    "id": 12,
+    "title": "DevOps engineer for AZQORE, Lausanne, Switzerland",
+    "period": "Mai 2020 - now",
+    "mission": "automate the run, as much as possible",
+    "achievements": [
+      "XL Deploy - refactoring company's python framework, being able to use XLD from CLI (and more)",
+      "Automate the delivery of the parameters for the main company product",
+      "Automate installation and configuration of several platform, thank to the tools that I developed"
+    ],
+    "environments": ["AIX","Linux RHEL","Windows server", "WebSphere Application Server"],
+    "technologies": ["Jenkins", "Nexus", "Gitlab", "JIRA", "Pure Java","Java/SpringBoot", "Angular", "Python", "JavaScript/TypeScript"]
+  },
+  {
     "id": 11,
     "title": "DevOps engineer for VITOL, Geneva, Switzerland",
     "period": "Oct 2019 - Feb 2020",
