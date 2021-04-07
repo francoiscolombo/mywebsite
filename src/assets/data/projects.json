@@ -22,5 +22,11 @@
     "visual": "assets/images/project4.png",
     "description": "This is a sample Java project, to provide a REST API. This template can be used for complex projects. Uses Spark and Nitrite.",
     "link": "https://github.com/francoiscolombo/code-java"
+  },
+  {
+    "id": 5,
+    "visual": "assets/images/project5.png",
+    "description": "And of course, what about seeing how this CV is made? Well, here you go.",
+    "link": "https://github.com/francoiscolombo/mywebsite"
   }
 ]
