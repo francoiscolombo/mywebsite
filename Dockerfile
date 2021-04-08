@@ -18,7 +18,7 @@ RUN cd /app && \
 # STEP 2 build a small nginx image with static website
 FROM nginx:stable-alpine
 
-LABEL maintainer  "Francois Colombo <francois_colombo@yahoo.fr>"
+LABEL maintainer  "Francois Colombo <francoiscolombo@protonmail.com>"
 LABEL application "mywebsite"
 
 # Additional packages
