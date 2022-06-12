@@ -35,7 +35,7 @@ jobs:
 
     - name: Build project
       run: |
-        ng build --prod
+        ng build
 
     - name: cleanup
       run: |
