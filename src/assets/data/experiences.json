@@ -54,10 +54,10 @@
       "Implements « node exporter » for Prometheus under Kubernetes, in order to collect metrics for every nodes.",
       "Improve vagrant Kubernetes platform used as simulation platform",
       "Improve Inventory scripts for the management platform (bash and python)",
-      "Develop a Chatbot for Matermost, in Golang"
+      "Develop a Chatbot for Matermost, in Go"
     ],
     "environments": ["Linux", "AIX", "Solaris", "Windows 2008 / 2012", "Kubernetes on premise"],
-    "technologies": ["Vagrant", "Puppet", "Ansible", "Terraform", "Bamboo", "Artifactory", "Nexus", "Bitbucket", "JIRA", "Ruby", "Golang", "Perl", "Python", "AngularJS", "Prometheus", "Grafana", "Kibana", "logstash", "RabbitMQ", "redis", "elastic search", "Helm"]
+    "technologies": ["Vagrant", "Puppet", "Ansible", "Terraform", "Bamboo", "Artifactory", "Nexus", "Bitbucket", "JIRA", "Ruby", "Go", "Perl", "Python", "AngularJS", "Prometheus", "Grafana", "Kibana", "logstash", "RabbitMQ", "redis", "elastic search", "Helm"]
   },
   {
     "id": 9,

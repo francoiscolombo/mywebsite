@@ -11,8 +11,7 @@ COPY .  /app
 
 RUN cd /app && \
     npm install && \
-    npm install -g @angular/cli@9.1.1 && \
-    ng lint && \
+    npm install -g @angular/cli@14.0.1 && \
     ng build --prod
 
 # STEP 2 build a small nginx image with static website
