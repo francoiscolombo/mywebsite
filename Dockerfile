@@ -1,7 +1,5 @@
 # STEP 1 build static website
-FROM node:alpine as builder
-
-RUN apk update && apk add --no-cache curl git libc6-compat gettext tzdata
+FROM node:latest as builder
 
 # Create app directory
 WORKDIR /app
@@ -12,7 +10,7 @@ COPY .  /app
 RUN cd /app && \
     npm install && \
     npm install -g @angular/cli@14.0.1 && \
-    ng build --prod
+    ng build
 
 # STEP 2 build a small nginx image with static website
 FROM nginx:stable-alpine
