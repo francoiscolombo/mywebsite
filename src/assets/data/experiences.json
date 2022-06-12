@@ -1,8 +1,23 @@
 [
   {
+    "id": 13,
+    "title": "Linux system administrator for Assura, Lausanne, Switzerland",
+    "period": "September 2020 - now",
+    "mission": "automating Linux VM creation and application integration and deployment",
+    "achievements": [
+      "Automate deployment of the main core application (Syrius, under weblogic), with ansible playbook",
+      "System management (Spacewalk, Katello, vmWare, Oracle LVM)",
+      "Deployment of Auditbeat and Microsoft Defender agent for Linux",
+      "Development of several ansible plugins to connect to Thycotic secret server, Centreon",
+      "Several other projects for platforms upgrades"
+    ],
+    "environments": ["Linux RHEL","Oracle Linux"],
+    "technologies": ["Shell", "Go", "Python", "Jython", "Weblogic Application Server"]
+  },
+  {
     "id": 12,
     "title": "DevOps engineer for AZQORE, Lausanne, Switzerland",
-    "period": "Mai 2020 - now",
+    "period": "Mai 2020 - June 2021",
     "mission": "automate the run, as much as possible",
     "achievements": [
       "XL Deploy - refactoring company's python framework, being able to use XLD from CLI (and more)",
